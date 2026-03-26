@@ -1,0 +1,41 @@
+name: trading
+description: "A stunning trading app matching Groww UI"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+
+  # UI Components
+  fl_chart: ^0.68.0
+  cached_network_image: ^3.3.1
+  animations: ^2.0.11
+
+  # Utilities
+  intl: ^0.19.0
+  shared_preferences: ^2.2.3
+  get_it: ^7.6.4
+  rxdart: ^0.27.7
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  bloc_test: ^9.1.6
+  mockito: ^5.4.2
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
